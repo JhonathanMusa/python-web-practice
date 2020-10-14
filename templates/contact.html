@@ -7,8 +7,59 @@
   </head>
   <body>
     {% extends 'base.html' %} {% block content %}
-
     <h1>Contact</h1>
+    <div class="container-contact">
+      <form action="">
+        <table class="table-contact">
+          <tr>
+            <td>Name:</td>
+            <td>
+              <input type="text" />
+            </td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td>
+              <input type="email" />
+            </td>
+          </tr>
+          <tr>
+            <td>Phone:</td>
+            <td>
+              <input type="telephone" />
+            </td>
+          </tr>
+          <tr>
+            <td>Subject:</td>
+            <td>
+              <input type="text" />
+            </td>
+          </tr>
+          <tr>
+            <td>Message:</td>
+            <td>
+              <textarea
+                class="input-contact"
+                name="c_mes"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input
+                type="submit"
+                id="btn-contact"
+                name="c_send"
+                value="Send"
+              />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
 
     {% endblock %}
   </body>

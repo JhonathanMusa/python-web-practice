@@ -65,8 +65,61 @@ button:hover {
   background-color: rgba(0, 136, 169, 1);
 }
 
+/* index */
+
+.container-index{
+  width: 70%;
+  height: auto;
+  margin: auto;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.banner img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  float: left;
+}
+
+.section {
+  width: 30%;
+  color: white;
+  float: right; 
+  padding: 15px;
+}
 /* Services */
-h1{
+h1 {
   color: white;
   text-align: center;
+}
+
+/* contact */
+.container-contact {
+  width: 70%;
+  margin: auto;
+}
+.table-contact {
+  color: white;
+  margin: 0 auto;
+}
+
+.table-contact input,
+textarea {
+  margin-top: 10px;
+  background-color: #eee;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+#btn-contact {
+  color: black;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+  cursor: pointer;
 }

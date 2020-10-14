@@ -3,12 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>>
+    <title>Document</title>
+    >
   </head>
   <body>
     {% extends 'base.html' %} {% block content %}
-    <h1>Home</h1>
+    <hr />
+    <div class="container-index">
+      <div class="banner">
+        <img src="../static/img/banner1.jpg" alt="" />
+      </div>
 
+      <section class="section">
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+          beatae odit autem magni aliquam doloribus optio quae illo facere
+          voluptates minus praesentium eos pariatur, repellendus, delectus,
+          perferendis in aliquid ab.
+        </p>
+        <br>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
+          aliquid nobis perspiciatis voluptatibus sit sed atque distinctio
+          accusamus aut dignissimos. Facilis debitis, magni omnis unde tempore
+          deleniti voluptas fuga sint!
+        </p>
+      </section>
+    </div>
     {% endblock %}
   </body>
 </html>

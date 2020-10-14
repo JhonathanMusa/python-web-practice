@@ -25,7 +25,7 @@ def about():
 
 @app.route("/contact")
 def contact():
-    return render_template("about.html")
+    return render_template("contact.html")
 
 
 # to keep the server running and apply changes automatically
