@@ -39,17 +39,36 @@ header {
   list-style: none;
 }
 
-.nav__links li {
+.nav__links > ul > li {
   display: inline-block;
   padding: 0px 20px;
 }
 
 .nav__links li a {
   transition: all 0.3s ease 0s;
+  display: block;
 }
 
 .nav__links li a:hover {
   color: #0088a9;
+}
+
+.drop {
+  margin: 0;
+  padding: 0;
+  display: none;
+  position: absolute;
+  padding: 15px;
+  list-style-type: none;
+}
+
+.drop > li > a{
+  display: block;
+  padding: 15px;
+}
+
+.nav__links li:hover .drop {
+  display: block;
 }
 
 button {
@@ -67,7 +86,7 @@ button:hover {
 
 /* index */
 
-.container-index{
+.container-index {
   width: 70%;
   height: auto;
   margin: auto;
@@ -89,7 +108,7 @@ button:hover {
 .section {
   width: 30%;
   color: white;
-  float: right; 
+  float: right;
   padding: 15px;
 }
 /* Services */
