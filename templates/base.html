@@ -17,11 +17,12 @@
         </div>
         <nav class="nav__links">
           <ul>
-            <li><a href="/services">Services</a>
+            <li>
+              <a href="#">Services</a>
               <ul class="drop">
-                <li><a href="#">Service One</a></li>
-                <li><a href="#">Service Two</a></li>
-                <li><a href="#">Service Three</a></li>
+                <li><a href="/service_one">Service One</a></li>
+                <li><a href="/service_two">Service Two</a></li>
+                <li><a href="/service_three">Service Three</a></li>
               </ul>
             </li>
             <li><a href="/products">Products</a></li>
@@ -30,7 +31,12 @@
         </nav>
         <a class="cta" href="/contact"><button>Contact</button></a>
       </header>
+      <div class="clearFix"></div>
+      {% block content %} {% endblock %}
+
+      <div class="copy">
+        <p><small>Copyright &copy; 2020. All right reserved.</small></p>
+      </div>
     </div>
-    {% block content %} {% endblock %}
   </body>
 </html>

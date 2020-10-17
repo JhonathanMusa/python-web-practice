@@ -62,7 +62,7 @@ header {
   list-style-type: none;
 }
 
-.drop > li > a{
+.drop > li > a {
   display: block;
   padding: 15px;
 }
@@ -141,4 +141,29 @@ textarea {
   border: 1px solid white;
   border-radius: 5px;
   cursor: pointer;
+}
+
+/* about */
+.container-about {
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
+}
+.container-about p {
+  color: white;
+}
+
+/* footer copy */
+.copy {
+  font-family: sans-serif;
+  padding: 25px;
+  text-align: center;
+  color: white;
+}
+
+.copy p {
+  display: inline-block;
+  text-align: center;
 }
