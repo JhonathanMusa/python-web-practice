@@ -1,10 +1,21 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
   background-color: #24252a;
 }
+/* MAIN CONTAINER */
+.container {
+  width: 70%;
+  height: auto;
+  background-color: white;
+  margin: auto;
+}
 
+/* LOGO */
+
+/* END LOGO */
+
+/* NAVIGATION */
 .home a {
   font-size: 20px;
 }
@@ -84,86 +95,70 @@ button:hover {
   background-color: rgba(0, 136, 169, 1);
 }
 
-/* index */
+/* INDEX */
 
-.container-index {
-  width: 70%;
-  height: auto;
-  margin: auto;
-}
-
+/* BANNER */
 .banner {
-  width: 100%;
-  height: auto;
-  margin: auto;
+  width: 80%;
+  height: 416px;
 }
 
 .banner img {
-  width: 50%;
+  width: 100%;
   height: auto;
-  margin: auto;
-  float: left;
 }
 
-.section {
-  width: 30%;
-  color: white;
-  float: right;
-  padding: 15px;
-}
-/* Services */
-h1 {
-  color: white;
-  text-align: center;
-}
-
-/* contact */
-.container-contact {
-  width: 70%;
-  margin: auto;
-}
-.table-contact {
-  color: white;
-  margin: 0 auto;
-}
-
-.table-contact input,
-textarea {
-  margin-top: 10px;
-  background-color: #eee;
-  border: 1px solid #eee;
-  border-radius: 5px;
-}
-#btn-contact {
-  color: black;
+/* CONTENT HOLDER */
+/* .content-holder {
   background-color: white;
-  padding: 5px;
-  border: 1px solid white;
-  border-radius: 5px;
-  cursor: pointer;
 }
-
-/* about */
-.container-about {
+ */
+.content {
   width: 700px;
   height: auto;
-  margin: 0 auto;
-  text-align: center;
   padding: 15px;
-}
-.container-about p {
+  margin-top: 100px;
+  /* background-color: white; */
+  float: left;
   color: white;
 }
 
-/* footer copy */
-.copy {
+.content h1 {
+  font-size: 1.5em;
   font-family: sans-serif;
-  padding: 25px;
-  text-align: center;
-  color: white;
 }
 
-.copy p {
-  display: inline-block;
-  text-align: center;
+.content p {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+/* FOOTER */
+.main-footer {
+  background-color: black;
+  color: white;
+  width: 950px;
+  height: auto;
+  padding: 25px;
+}
+
+.footer-box {
+  width: 237.5px;
+  height: auto;
+  float: left;
+  font-family: sans-serif;
+}
+
+.footer-box > ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-box > ul > li > a {
+  display: block;
+  font-size: small;
+  margin: 5px;
+  color: white;
+  text-decoration: none;
 }

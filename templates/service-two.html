@@ -4,10 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/style.css')}}"
+    />
   </head>
   <body>
-    {% extends "base.html" %} {% block content %}
-    <h1>Service Two</h1>
-    {% endblock %}
+    <div class="container">
+      <header>
+        <div class="logo">
+          <a href="#">
+            <img src="#" alt="" />
+          </a>
+        </div>
+        <div class="home">
+          <a href="/">Home</a>
+        </div>
+        <nav class="nav__links">
+          <ul>
+            <li>
+              <a href="#">Services</a>
+              <ul class="drop">
+                <li><a href="/service_one">Service One</a></li>
+                <li><a href="/service_two">Service Two</a></li>
+                <li><a href="/service_three">Service Three</a></li>
+              </ul>
+            </li>
+            <li><a href="/products">Products</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+        </nav>
+        <a class="cta" href="/contact"><button>Contact</button></a>
+      </header>
+      <section class="banner">
+        <img src="#" alt="" />
+        <img src="#" alt="" />
+      </section>
+      <section class="content-holder">
+        <article class="content"></article>
+      </section>
+      <div class="clearFix"></div>
+
+      <div class="copy">
+        <p><small>Copyright &copy; 2020. All right reserved.</small></p>
+      </div>
+    </div>
   </body>
 </html>
