@@ -7,7 +7,7 @@
 .container {
   width: 70%;
   height: auto;
-  background-color: white;
+  /* background-color: white; */
   margin: auto;
 }
 
@@ -99,8 +99,8 @@ button:hover {
 
 /* BANNER */
 .banner {
-  width: 80%;
-  height: 416px;
+  /* width: 80%; */
+  height: auto;
 }
 
 .banner img {
@@ -135,7 +135,7 @@ button:hover {
 
 /* FOOTER */
 .main-footer {
-  background-color: black;
+  /* background-color: black; */
   color: white;
   width: 950px;
   height: auto;
@@ -145,7 +145,7 @@ button:hover {
 .footer-box {
   width: 237.5px;
   height: auto;
-  float: left;
+  /* float: right; */
   font-family: sans-serif;
 }
 
@@ -161,4 +161,13 @@ button:hover {
   margin: 5px;
   color: white;
   text-decoration: none;
+}
+
+.copy{
+  padding: 25px;
+  color: white;
+}
+
+.copy p{
+  text-align: center;
 }
